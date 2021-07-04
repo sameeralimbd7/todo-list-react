@@ -1,0 +1,28 @@
+.todo {
+  width: 100%;
+  min-height: 10%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todotitle {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.line {
+  text-decoration: line-through;
+}
+.btn {
+  padding: 0 10px;
+  font-size: 1.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+.btn:hover i {
+  color: #d63031;
+}

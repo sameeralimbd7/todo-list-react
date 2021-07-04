@@ -16,7 +16,9 @@ code {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
+  color: #2d3436;
 }
-h1 {
-  font-family: "Tourney", cursive;
+::selection {
+  background-color: #d63031;
+  color: white;
 }
